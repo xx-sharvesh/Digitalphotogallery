@@ -1,0 +1,79 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+html {
+    height:100%;
+}
+body{
+    background:black;
+	font-family: 'Montserrat', sans-serif;
+}
+body::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	z-index: -1;
+}
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    padding: 70px;
+    transform: translate(-50%,-50%);
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+.login-box h1{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size:50px;
+    color: black;
+    text-align: center;
+}
+.login-box p{
+    margin: 30px;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+.login-box .user-box{
+    position: relative;
+}
+.login-box .user-box input{
+    width: 80%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.login-box .user-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+}
+.login-box .user-box Input:focus ~ label,
+.login-box .user-box input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color:  #4FA3A5;
+    font-size: 12px;
+}
+.login-box .form{
+    border-right:1px solid black;
+    margin-right: 120px;
+}

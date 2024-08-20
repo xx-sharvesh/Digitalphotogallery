@@ -1,0 +1,67 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+html {
+    height:100%;
+}
+body{
+    margin:0;
+    padding:0;
+	font-family: 'Montserrat', sans-serif;
+    background:black;
+}
+.fp-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 70px;
+    transform: translate(-50%,-50%);
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+.fp-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size:30px;
+    color: black;
+    text-align: center;
+}
+.fp-box p{
+    font-size:12px;
+    margin: 30px;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+.fp-box .in-box{
+    position: relative;
+}
+.fp-box .in-box input{
+    width: 80%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.fp-box .in-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+}
+.fp-box .in-box Input:focus ~ label,
+.fp-box .in-box input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color:  #4FA3A5;
+    font-size: 12px;
+}

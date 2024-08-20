@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digital photo Gallery</title>
+        <link rel="stylesheet" href="ca.css">
+        <a href="index.html"><img src="img/logo.png" alt="" width="120px" height="120px" style="padding-left: 15px;"></a>
+    </head>
+    <body>
+        <div class="login-box">
+            <h1>Sign Up</h1>
+            <p>Already have an account? <a href="login.html" style="text-decoration: none;color: #4FA3A5;">Log In</a></p>
+            <table>
+                <tr>
+                    <td style="width:80%;">
+                        <div class="form">
+                            <form onsubmit="matchpass()" name="myform" action="login.html">
+                                <div class="user-box">
+                                    <input type="text" name="" required="">
+                                    <label>Username</label>
+                                </div>
+                                <div class="user-box">
+                                    <input type="email" name="" required="">
+                                    <label>Email</label>
+                                </div>
+                                <div class="user-box">
+                                    <input type="password" name="pass" id="pass" required="">
+                                    <label>Password</label>
+                                </div>
+                                <!----
+                                <div class="user-box">
+                                    <input type="password" name="pass1" id="pass1" required="">
+                                    <label>Type your password again</label>
+                                </div>
+                            -->
+                                <button id="demo" onmouseover="myfunc()" onmouseout="myfunc1()" style="background-color:transparent;border:1px solid  #4FA3A5;border-radius:20px;color:black;letter-spacing:4px;padding:10px;padding-left:20px;padding-right: 20px;">
+                                     SUBMIT
+                                </button>
+                                <script src="main.js"></script>
+                            </form>
+                        </div>
+                    </td>
+                    <td style="width:100%;padding-right:60px">
+                        <div class="ryt">
+                            <table style="border-collapse: collapse;border-spacing:10px;">
+                                <tr style="border:1px solid #4285f4;">
+                                    <td style="background-color:white"> 
+                                        <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">
+                                        <img src="img/google.png" alt="" width="30px" height="30px">
+                                        </a>
+                                    </td>
+                                    <td style="background-color: #4285f4;">
+                                        <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">
+                                        <button style="background-color: #4285f4;border:none;color:white;width: 200px;">
+                                            Continue with Google
+                                        </button>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                            <table style="border-collapse: collapse;border-spacing:10px;">
+                                <tr style="border:1px solid #3b5998;">
+                                    <td style="background-color:white"> 
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <img src="img/fb.png" alt="" width="30px" height="30px">
+                                        </a>
+                                    </td>
+                                    <td style="background-color: #3b5998;">
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <button style="background-color: #3b5998;border:none;color:white;width: 200px;">
+                                                Continue with Facebook
+                                            </button>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
