@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/img/icon logo.jpg" type="image/icon type">
+  <title>Digital Photo Gallery</title>
+  <script>        
+    var pre = document.getElementById('loading');
+    function myfunc(){
+        pre.style.display= 'none';
+    }
+</script>
+</head>
+<body onload="myfunc()">
+
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>Digital Photo <span>Gallery</span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Popular</a></li>
+            <li><a href="#projects" data-after="Categories">Categories</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Welcome to, <span></span></h1>
+        <h1>Digital Photo <span></span></h1>
+        <h1>Gallery <span></span></h1>
+        <a href="login.html" type="button" class="cta">Log In</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title"><span>Popular</span></h1>
+        <p>Here, you can look out for popular creators, most viewed pictures, 
+          trending uploads and most purchased photos. 
+          Note that these rankings are updated everyday!</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item" style="margin-right:80px">
+          <a href="creator.html">
+          <div class="icon"><img src="img/C.png" /></div>
+          <h2 style="text-align:left;">Creators</h2>
+          <p>Creators whose portfolio is most viewed and liked will be shown here, 
+            people admire at their photography skills and 
+            hence these portfolio have more following.</p>
+          </a>
+        </div>
+        <div class="service-item" style="margin-right:80px">
+          <a href="pictures.html">
+            <div class="icon"><img src="img/P.png" /></div>
+          <h2>Pictures</h2>
+          <p>Pictures and portfolios which are most viewed and liked will be shown here, 
+            all depends on the creator's photography skills and here 
+            the pictures are lined up based on their ranking.</p>
+          </a>
+        </div>
+        <div class="service-item">
+          <a href="upload.html">
+            <div class="icon"><img src="img/U.png" /></div>
+          <h2>Uploads</h2>
+          <p>The pictures and portfolios which are uploaded by our platform's users will be displayed here. 
+            Also, the user who has uploaded the most pictures will also be shown under this category.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title"><span>Categories</span></h1>
+      </div>
+      <div class="all-projects">
+        <a href="wildlife.html">
+          <div class="link">
+            <div class="project-item">
+              <div class="project-info">
+                <h1>Wildlife</h1>
+                <h2>Hunting with a camera</h2>
+                <p>Wildlife photography is a genre of photography concerned with documenting various forms of wildlife in their natural habitat.
+                  As well as requiring photography skills, wildlife photographers may need field craft skills.</p>
+              </div>
+              <div class="project-img">
+                <img src="./img/Wildlife/Primal-copy.jpg" alt="img">
+              </div>
+            </div>
+          </div>
+        </a>
+        <div class="project-item">
+          <a href="food.html">
+            <div class="project-info" style="width:600px;height:500px;">
+              <h1>Food</h1>
+              <h2>Visual presentation of eating</h2>
+              <p>Food photography is one of the most complex types of photography.
+                Whether it is an after-party from the perfect cocktail or the homemade roasted chicken recipe on the farm, you tell stories like all photography.</p>
+            </div>
+          </a>
+          <a href="food.html">
+            <div class="project-img" style="width:600px;height:500px;">
+              <img src="./img/Wildlife/Joanie-Simon-food-photographer.jpg" alt="img" >
+            </div>
+          </a>
+        </div>
+        <a href="fineart.html">
+          <div class="link">
+            <div class="project-item">
+              <div class="project-info">
+                <h1>Fine-Art</h1>
+                <h2>Creation of visual works of art</h2>
+                <p>Fine art photography is about the artist and their interpretation of the scene.
+                  The camera is merely a tool to create art - it’s not about what the camera sees, but is instead about what the artist wants to make of the scene.</p>
+              </div>
+              <div class="project-img">
+                <img src="./img/Sparrek-1.jpeg" alt="img">
+              </div>
+          </div>
+          </div>
+        </a>
+        <div class="project-item">
+          <a href="street.html">
+            <div class="project-info" style="width:600px;height:500px;">
+              <h1>Street</h1>
+              <h2>Candid Photography</h2>
+              <p>Street photography, also sometimes called candid photography, is photography conducted for art or enquiry that features
+                 unmediated chance encounters and random incidents within public places.</p>
+            </div>
+          </a>
+          <a href="street.html">
+            <div class="project-img" style="width:600px;height:500px;">
+              <img src="./img/Wildlife/pexels-connor-danylenko-3075535.jpg" alt="img">
+            </div>
+          </a>
+        </div>
+        <a href="travel.html">
+          <div class="link">
+            <div class="project-item">
+              <div class="project-info">
+                <h1>Travel</h1>
+                <h2>Expressions of feeling</h2>
+                <p>Travel photography is a genre of photography that may involve the documentation of an area's landscape, people, cultures, customs, and history. </p>
+              </div>
+              <div class="project-img">
+                <img src="./img/Wildlife/pexels-sam-kolder-2387873.jpg" alt="img">
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/d1.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>US</span></h1>
+        <h2>Front End Developer</h2>
+        <p>We are a team of 5:<br>
+          Jeffrey,Sharvesh, Mitesh, Rajkumar, Rithish.<br>
+          We made a website which displays photos on different categories.<br>
+          Give your valuable feedback by clicking the button below.
+        </p>
+        <a href="feedback.html" class="cta">Feedback</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2><a href="tel:+91 87540 16623" style="color: teal;">+91 87540 16623</a></h2>
+            <h2><a href="tel:+91 73589 89333"style="color: teal;">+91 73589 89333</a></h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2><a href="mailto:info@gmail.com"style="color: teal;">dpg_official@gmail.com</a></h2>
+            <h2><a href="mailto:abcd@gmail.com"style="color: teal;">dpg_help.online@gmail.com</a></h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2><a href="https://goo.gl/maps/j5xqpMJo7thbdHLe6"style="color: teal;">Amrita Vishwa Vidhyapeetham, AB-3 Block</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1>Digital Photo <span>Gallery</span></h1>
+      </div>
+      <h2>Complete Photo Gallery</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.snapchat.com"><img src="https://img.icons8.com/bubbles/100/000000/snapchat.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 DPG. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+</body>
+
+</html>
